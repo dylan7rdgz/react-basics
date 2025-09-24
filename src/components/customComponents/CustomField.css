@@ -1,0 +1,16 @@
+.custom-field-container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+}
+
+.custom-field-container .custom-label {
+    min-width: 120px; /* Adjust this width as needed */
+    padding-right: 10px;
+    text-align: left;
+}
+
+.custom-field-container .custom-input {
+    
+}
