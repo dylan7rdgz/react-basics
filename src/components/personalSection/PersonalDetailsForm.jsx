@@ -11,7 +11,7 @@ function PersonalDetailsForm() {
 
     return (
         <div>
-            <CustomForm formFieldData={formFieldData} />
+            <CustomForm formFieldData={formFieldData} section="personalDetails" />
         </div>
     );
 }

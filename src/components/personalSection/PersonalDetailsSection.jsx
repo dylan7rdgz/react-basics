@@ -4,11 +4,12 @@ import Button from '../customComponents/Button';
 import getComponentList from '../../utilities/getComponentList';
 
 
-function PersonalDetailsSection() {
+function PersonalDetailsSection({updateGlobalState}) {
     const [pdSectionCount, updatePdSectionCount] = useState(1);
     return (
         <section>
-            {getComponentList(pdSectionCount, PersonalDetailsForm)}
+            {getComponentList(pdSectionCount, PersonalDetailsForm, updateGlobalState)}
+            {/*getComponentList(pdSectionCount, PersonalDetailsForm, { updateGlobalState })*/}
             {/*<Button 
                 onClick={() => {
                     updatePdSectionCount(pdSectionCount + 1);
